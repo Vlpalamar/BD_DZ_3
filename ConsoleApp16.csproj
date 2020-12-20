@@ -93,11 +93,17 @@
     <Content Include="University\Migration\Lectures.sql" />
     <Content Include="University\Migration\Subjects.sql" />
     <Content Include="University\Migration\Teachers.sql" />
+    <Content Include="University\Query\query11.sql" />
+    <Content Include="University\Query\query10.sql" />
+    <Content Include="University\Query\query7.sql" />
     <Content Include="University\Query\query1.sql" />
     <Content Include="University\Query\query2.sql" />
     <Content Include="University\Query\query3.sql" />
     <Content Include="University\Query\query4.sql" />
     <Content Include="University\Query\query5.sql" />
+    <Content Include="University\Query\query6.sql" />
+    <Content Include="University\Query\query8.sql" />
+    <Content Include="University\Query\query9.sql" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
