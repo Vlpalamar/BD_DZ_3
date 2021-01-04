@@ -1,0 +1,5 @@
+﻿INSERT INTO [dbo].[GroupsLectures] ([groupId], [lectureId]) VALUES (6, 2)
+INSERT INTO [dbo].[GroupsLectures] ([groupId], [lectureId]) VALUES (7, 3)
+INSERT INTO [dbo].[GroupsLectures] ([groupId], [lectureId]) VALUES (6, 4)
+INSERT INTO [dbo].[GroupsLectures] ([groupId], [lectureId]) VALUES (6, 3)
+INSERT INTO [dbo].[GroupsLectures] ([groupId], [lectureId]) VALUES (7, 2)
