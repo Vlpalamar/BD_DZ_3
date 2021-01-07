@@ -109,6 +109,8 @@
     <Content Include="University\Query-02\Query3.sql" />
     <Content Include="University\Query-02\Query4.sql" />
     <Content Include="University\Query-02\Query5.sql" />
+    <Content Include="University\Query-02\Query6.sql" />
+    <Content Include="University\Query-02\Query7.sql" />
     <Content Include="University\SEED-04-01-2021\Curators.sql" />
     <Content Include="University\SEED-04-01-2021\DepartmentsS.sql" />
     <Content Include="University\SEED-04-01-2021\FacultiesS.sql" />

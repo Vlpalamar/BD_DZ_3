@@ -1,0 +1,3 @@
+﻿--Вывести названия групп, имеющих рейтинг 
+--(средний рейтинг всех студентов группы) меньше, чем минимальный
+--рейтинг групп 5-го курса.SELECT [Groups].name --, AVG([Students].raiting)FROM [Groups]JOIN [groupsStudents]ON [Groups].Id=[groupsStudents].groupIdJOIN [Students]ON [Students].Id=[groupsStudents].studentIdWHERE [Groups].year!=5   GROUP BY [Groups].nameHAVING AVG([Students].raiting)<(	SELECT TOP 1 AVG([Students].raiting)	FROM Students,[Groups]	WHERE [Groups].year=5	ORDER BY  AVG([Students].raiting)  ASC	)	--замудрил но вроде правильно
